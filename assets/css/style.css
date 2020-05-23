@@ -3,11 +3,25 @@
     padding: 0;
     margin: 0;
 }
+ /* Reset CSS */
 
+
+ /* General styles */
 body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/* Begin header style */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +38,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +46,18 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* Begin header style */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-
+/* Hero style */
 .hero {
     height: 800px;
     width: 100%;
@@ -68,8 +76,6 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-
 
 .benefits {
     margin-right: 20px;
@@ -98,7 +104,6 @@ p {
     max-width: 150px;
 }
 
-
 .value-prop-section {
     width: 75%;
     display: inline-block;
@@ -119,10 +124,18 @@ p {
     float: left;
 }
 
+#online-reputation-management-img {
+    float: right;
+}
+
+#online-reputation-management-txt {
+    padding-left: 0px;
+}
+
 .value-prop-content {
-    padding: 35px;
+    padding: 0px 0px 0px 35px;
     float: left;
-    width: 65%;
+    width: 70%;
     text-align: left;
 }
 
