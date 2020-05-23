@@ -99,7 +99,7 @@ p {
 }
 
 
-.content {
+.value-prop-section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -116,6 +116,14 @@ p {
 
 .value-prop img {
     max-height: 200px;
+    float: left;
+}
+
+.value-prop-content {
+    padding: 35px;
+    float: left;
+    width: 65%;
+    text-align: left;
 }
 
 .value-prop h2 {
