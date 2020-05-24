@@ -63,7 +63,7 @@ p {
     display: inline-block;
     margin-left: 25px;
 }
-/* Begin header style */
+/* End header style */
 
 
 /* Hero style */
@@ -76,7 +76,7 @@ p {
     background-position: center;
 }
 
-/* Begin benefits sidebar style */
+/* Begin 'Benefits' sidebar style */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -124,8 +124,9 @@ p {
 .value-prop-content {
     padding: 0px 0px 0px 25px;
     float: left;
-    width: 60%;
+    width: 70%;
     text-align: left;
+    text-overflow: wrap;
 }
 
 .value-prop img {
@@ -146,9 +147,7 @@ p {
 #online-reputation-management-txt {
     padding-left: 0px;
 }
-
-/* End benefits sidebar style */
-
+/* End value prop style */
 
 /* Begin footer style */
 .footer {
